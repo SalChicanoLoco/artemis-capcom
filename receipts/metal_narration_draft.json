@@ -1,0 +1,8 @@
+{
+  "tool": "mlx-metal.mlx_generate_code",
+  "status": "candidate_preliminary_pass",
+  "device": "DeviceType.gpu",
+  "duration_sec": 16.53,
+  "draft": "NARRATION = 'In this demo, Artemis CapCom takes control of Twitch chat mission control. Hosts initiate a 20-second voting phase, followed by an 8-second compressed signal comparison. Viewers vote with options a/b. The latest vote per account counts. This real test features one participant, xavaanes, with a 100-point reward for signalA. Deterministic equations decide the winner, not AI. The Codex, with 70 tests, built and refactored the app. Local Apple Metal generated candidate helpers, checked 256 coda samples. Optional MLX explanations run in the background. All maps are schematic, with terrain fixtures. No forecasts or landing clearance. Offline Director rehearsal available. Safe testing, no MLX claimed.'",
+  "notes": "Narration draft edited for clarity and fact-checked against real test receipts before rendering. No claim of MLX in live test."
+}

@@ -1,0 +1,117 @@
+{
+  "ok": true,
+  "kind": "vote",
+  "data": {
+    "message": "[COMPUTED] xavaanes: signal A selected. One vote per viewer; latest choice counts."
+  },
+  "message": "[COMPUTED] xavaanes: signal A selected. One vote per viewer; latest choice counts.",
+  "cache_hit": false,
+  "modelled_energy": null,
+  "sequence": 24,
+  "timestamp": 1793553292.019273,
+  "counters": {
+    "computations": 15,
+    "cache_hits": 5,
+    "calls_avoided": 5,
+    "errors": 2
+  },
+  "model": {
+    "loaded": false,
+    "model_path": null,
+    "disabled": true,
+    "error": null,
+    "busy": false,
+    "revision": 0,
+    "pending": 0,
+    "expired": 0
+  },
+  "mission": {
+    "round": {
+      "id": 3,
+      "title": "LOW AND SLOW",
+      "hint": "One signal sheds energy faster. Pick your crew's survivor.",
+      "phase": "voting",
+      "a": {
+        "q": 5000,
+        "frequency_hz": 0.5
+      },
+      "b": {
+        "q": 3000,
+        "frequency_hz": 2
+      },
+      "closes_at": 1793553299.250433,
+      "voting_seconds": 20,
+      "replay_seconds": 8,
+      "winner": null,
+      "explanation": null,
+      "counts": {
+        "a": 1,
+        "b": 0
+      },
+      "participants": 1
+    },
+    "leaderboard": []
+  },
+  "state": {
+    "site": null,
+    "quake": {
+      "magnitude": 4.5,
+      "energy_j": 354813389233.57605,
+      "q": 4200,
+      "frequency_hz": 1.0,
+      "alpha": 0.5,
+      "a0": 1.0,
+      "ringing_minutes": 22.383719170092288,
+      "threshold_fraction_at_1s": 0.01,
+      "pga_lunar_g": 0.004857621468310779,
+      "pga_assumptions": {
+        "distance_m": 10000,
+        "density_kg_m3": 3000,
+        "wave_speed_m_s": 3000,
+        "source_duration_s": 20,
+        "frequency_hz": 1.0,
+        "lunar_g_m_s2": 1.62
+      },
+      "hab_status": "UNASSESSED \u2014 no structural model",
+      "message": "[COMPUTED] Simulated Mw 4.5: E_R=3.548134e+11 J; Q=4200, 1% coda at 22.38 min (f=1Hz, alpha=0.5). [INFERRED] Scenario PGA=0.004858 lunar g at 10km; hab unassessed.",
+      "simulated_at": 1793552794.6323462
+    },
+    "aoi": {
+      "site": "shackleton",
+      "polygon_lon_lat": [
+        [
+          -1.0,
+          -89.95
+        ],
+        [
+          1.0,
+          -89.95
+        ],
+        [
+          1.0,
+          -89.85000000000001
+        ],
+        [
+          -1.0,
+          -89.85000000000001
+        ],
+        [
+          -1.0,
+          -89.95
+        ]
+      ],
+      "elevated_slip_risk": true,
+      "cold_trap": true,
+      "message": "[COMPUTED] Illustrative AOI bounding polygon (lon,lat). [REFERENCE] [FIXTURE] ILLUSTRATIVE fixture: Shackleton Rim, slope 14 deg, scarp 4.8km, cold-trap scenario=True. [COMPUTED] Scarp <10km=True; slope >15deg=False. [INFERRED] Elevated slip potential near scarps; no landing clearance or confirmed ice."
+    }
+  },
+  "source": "LIVE IRC",
+  "transport": "LIVE IRC",
+  "runtime": {
+    "mode": "LIVE IRC",
+    "connection": "connected",
+    "channel": "xavaanes",
+    "dropped": 0,
+    "queued": 0
+  }
+}

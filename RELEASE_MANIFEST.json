@@ -1,0 +1,236 @@
+{
+  "project": "Artemis CapCom",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 74,
+      "sha256": "9f7ca23f2bf3a0c7cbe98ffb7bf201fb32b8a176a2acad1769ce96cfac44ae25"
+    },
+    {
+      "path": "README.md",
+      "bytes": 8173,
+      "sha256": "a0eb1e08541ed0c59c2f9db6582cf0c269b605ea41ac413a9f207526f4969fba"
+    },
+    {
+      "path": "SOURCES.md",
+      "bytes": 2720,
+      "sha256": "3a541691fc3b26bbb8ccbafe2a0af69bae93d1e86832537059234a1ad13866b5"
+    },
+    {
+      "path": "AUDIT.md",
+      "bytes": 4583,
+      "sha256": "279eb3f87b882f596d52d996c31cf575304a947ed40a96dbc89f693f9fc1a43f"
+    },
+    {
+      "path": "SUBMISSION.md",
+      "bytes": 4188,
+      "sha256": "59bd52321002fcb56c82cb418ad6197699314732445e2c5439bcbdb685e31553"
+    },
+    {
+      "path": "CODEX_USAGE_LOG.md",
+      "bytes": 126481,
+      "sha256": "634f8a7f77abc36a0b49afb570871905726dcd8e1074c5d6bcd91eb8df183b3e"
+    },
+    {
+      "path": "RESUME_WORK_DONE.md",
+      "bytes": 6254,
+      "sha256": "e6062d488c1820bb4221d2aefd6224b297db7452c79c21c9bb14e2358edae1a0"
+    },
+    {
+      "path": "lunar_copilot.py",
+      "bytes": 3001,
+      "sha256": "040c01468aa1ba855d6b73d6dcca1e77deef1393e9f748289caae61c4cb49b50"
+    },
+    {
+      "path": "physics.py",
+      "bytes": 2588,
+      "sha256": "6cac49e931debb97339c823fe8884ce48749712d07a4d354e55e530b62fd177d"
+    },
+    {
+      "path": "mission.py",
+      "bytes": 5146,
+      "sha256": "f99b67d0790873263a592ba8c09b8bd35960fffec5f3a640baed7e8269b1af29"
+    },
+    {
+      "path": "core.py",
+      "bytes": 7784,
+      "sha256": "7a6ab15631207cbcb235d8da5010b965d7032ab14bdaaa50032c654e16f08cae"
+    },
+    {
+      "path": "scoring.py",
+      "bytes": 821,
+      "sha256": "d70f60fe81b815239c707c4a2c9d62d7503371cb54160725efc53b6915028d4d"
+    },
+    {
+      "path": "model_slot.py",
+      "bytes": 3555,
+      "sha256": "b6be1b4e7c95d5b6b11a18b431070c5d1b001c4eecdb6c66a9b02cac02efe44b"
+    },
+    {
+      "path": "inference.py",
+      "bytes": 3975,
+      "sha256": "82e92535ed560781f006697bba36183caaffa79e60f314f45ad4223dbdad2de6"
+    },
+    {
+      "path": "runtime.py",
+      "bytes": 5568,
+      "sha256": "2546cdc4e0ca837d7562eed4f76eec70750c5786e53d1ef377ad98b499a7f720"
+    },
+    {
+      "path": "telemetry.py",
+      "bytes": 7991,
+      "sha256": "28c239232a679da53c401a221cd6e2eeb8d63874f6e40b915ae0bd7a4b877105"
+    },
+    {
+      "path": "twitch_transport.py",
+      "bytes": 7084,
+      "sha256": "29f63c9ca2cb94a64fe523fa2d589bdf57c8535372aac31632a2088e11d4a00e"
+    },
+    {
+      "path": "twitch_launcher.py",
+      "bytes": 7242,
+      "sha256": "069e0232345576cab4392c1484cdcb013ef969e6154e42796508d9eb8355bc43"
+    },
+    {
+      "path": "start_demo.command",
+      "bytes": 215,
+      "sha256": "e8802d3d26a6e3f2073dbda1111897f464fe50b0aabb02412a332260938726e4"
+    },
+    {
+      "path": "start_twitch.command",
+      "bytes": 184,
+      "sha256": "f83542fb2cdc5a755f03f98f5d287955b0f12eedeb799622a8b2869f7d2ca99c"
+    },
+    {
+      "path": "lunar_hud.html",
+      "bytes": 18311,
+      "sha256": "9c6a5298fb815be39f26444c18004db91dec4ba28cdbfe7fb9b4d395bcc1d13c"
+    },
+    {
+      "path": "director.html",
+      "bytes": 7383,
+      "sha256": "4b32afc9a1baf3090de8869830ce8ebc6e42c443b66ebb0779cacdf2e6c45597"
+    },
+    {
+      "path": "tests/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "tests/test_copilot.py",
+      "bytes": 17121,
+      "sha256": "ac91229591901e28756e61745fdd14c46e97e862a33efdb693ce9ec478d3e388"
+    },
+    {
+      "path": "tests/test_inference_resilience.py",
+      "bytes": 8077,
+      "sha256": "701ee9f535e530547a6fd1bb78f15771471410ffea21a1df1c6d07caa19a72c2"
+    },
+    {
+      "path": "tests/test_launcher.py",
+      "bytes": 4277,
+      "sha256": "62aacd7cb89ee3a168749ac99d071631c5fbe9b7078be23e330cd10411159521"
+    },
+    {
+      "path": "tests/test_release.py",
+      "bytes": 14893,
+      "sha256": "8ccad5202f24b1276de0dd63f04b70480593c0b993aa9f6385f7d80c6f45ed93"
+    },
+    {
+      "path": "tools/package_release.py",
+      "bytes": 3091,
+      "sha256": "6c0ac1d1f5b3521238d3eba277c2ad29cbf7ef6f7a848bdf9b6e6ceca0823812"
+    },
+    {
+      "path": "tools/profile_local_mlx.py",
+      "bytes": 7230,
+      "sha256": "be2ced8e92b1c0a7fbcb5cfeae5176ea993b99a96e6f41a97418491b5ce4e219"
+    },
+    {
+      "path": "fixtures/chat_log.txt",
+      "bytes": 237,
+      "sha256": "8846d28c8c85c03fbaebaf13db544f49391d744d0d71c0eeb8d3c86f29c846c0"
+    },
+    {
+      "path": "fixtures/sites.json",
+      "bytes": 748,
+      "sha256": "7e492596466a74427be39799043e68fbbf972808bf89d2ee960382876fc597fe"
+    },
+    {
+      "path": "receipts/release_suite.json",
+      "bytes": 19909,
+      "sha256": "10cf44d6bb25a17f0afa121a3b851aa11a516f64e1d6a70eb24373dabfc5368a"
+    },
+    {
+      "path": "receipts/release_async_mlx.json",
+      "bytes": 814,
+      "sha256": "73da844eabee90eabcc4ec8cfb68e570e7f3a7af6620a00fb6bf95db46e522df"
+    },
+    {
+      "path": "receipts/release_browser.json",
+      "bytes": 1027,
+      "sha256": "0a983b3915a029e34452422a9ef0d7d38902c5fc5bd6931ff677de1f1f194b83"
+    },
+    {
+      "path": "receipts/metal_scoring_candidate.json",
+      "bytes": 1119,
+      "sha256": "83c84544c2fc3f863482f6bf21f0b2868d58700994ad8d450b35ab245b9c85ff"
+    },
+    {
+      "path": "receipts/metal_test_candidate_rejected.json",
+      "bytes": 1628,
+      "sha256": "b924657551e5635a6706a32c93e2b17a93c1d551b81c405e704bb344fe4adde5"
+    },
+    {
+      "path": "receipts/metal_coda_verification.json",
+      "bytes": 7260,
+      "sha256": "fd56049eab729308b8cf8023116899f272cdd9a1eabab7bb62dadba2c30223f1"
+    },
+    {
+      "path": "receipts/metal_winner_candidate.json",
+      "bytes": 790,
+      "sha256": "670cfb31c25bf855e2fe9e01aaf45d3c62547bce35626b9ed4acacde1948536a"
+    },
+    {
+      "path": "receipts/release_live_twitch.json",
+      "bytes": 3709,
+      "sha256": "a3c87ea4ef4bf9d983ca8a80adfa96f4533ea99331378842b0a42e0bb1eef927"
+    },
+    {
+      "path": "receipts/release_live_vote.json",
+      "bytes": 2983,
+      "sha256": "1b96b6a6ea89458244af2b8e25dd8afcc1bf1154df01455847454ebfe73febc1"
+    },
+    {
+      "path": "receipts/metal_narration_draft.json",
+      "bytes": 1014,
+      "sha256": "3e4b595e27017d5d67373be0959f3e2bdbe329c537487a3e2b7733b3412452f1"
+    },
+    {
+      "path": "receipts/release_suite_70.json",
+      "bytes": 18394,
+      "sha256": "f991e8cb8722b6b258bff7da19e7e20e0a69295614db3ea8f4633641179e662b"
+    },
+    {
+      "path": "receipts/reviewer_fixes.json",
+      "bytes": 2357,
+      "sha256": "200251bd6b761f1e25fea131c0cbc950b1bfeed73da1a259eab5e520ed83b839"
+    },
+    {
+      "path": "receipts/metal_signal_receipt.json",
+      "bytes": 442,
+      "sha256": "ec7102f61551c86b168e81762e5815a68b488c79fc51bcbcd045999542cc7ca8"
+    }
+  ],
+  "secrets_scan": "passed",
+  "excluded": [
+    "CLI configuration",
+    "credentials",
+    "models",
+    "legacy root project",
+    "experiments",
+    "bytecode",
+    "unverified orchestration",
+    "historical checkpoints"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "tool": "mlx-metal.mlx_generate_code",
+  "code": "def signal_receipt(label: str, signal: dict) -> str:\n    return f\"{label}: Q={signal['q']:g}, f={signal['frequency_hz']:g}Hz, 1% at {signal['ringing_minutes']:.2f}min\"",
+  "device": "DeviceType.gpu",
+  "duration_sec": 11.829,
+  "status": "candidate_preliminary_pass",
+  "verification": "All three scenarios parsed and recomputed in ReviewerFixTests; both environments pass74 tests."
+}

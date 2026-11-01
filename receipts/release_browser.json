@@ -1,0 +1,34 @@
+{
+  "viewport": "1920x1080 OBS source; entire16:9 stage",
+  "rehearsal": [
+    "initial no-data state",
+    "two distinct voters",
+    "automatic lock/reveal",
+    "reload restores scores"
+  ],
+  "live": [
+    "xavaanes channel authenticated via private CLI capture",
+    "rehearsal votes disabled",
+    "actual browser !mission, !vote b, then changed to !vote a",
+    "one accepted participant, score100, numerical reveal",
+    "OBS source rendered live overlay and recorded80seconds"
+  ],
+  "recording": "release/ArtemisCapCom-live-raw.mov (actual1280x720,30fps OBS output; source1920x1080)",
+  "ui_fix": "Live user entered !vote b in science question box; added direct Twitch chat link and command-aware routing",
+  "screenshots": [
+    "receipts/obs_live_verified.jpg",
+    "../release/ArtemisCapCom-preview.jpg"
+  ],
+  "js_checks": [
+    {
+      "file": "lunar_hud.html",
+      "unique_ids": 38,
+      "syntax_exit": 0
+    },
+    {
+      "file": "director.html",
+      "unique_ids": 17,
+      "syntax_exit": 0
+    }
+  ]
+}

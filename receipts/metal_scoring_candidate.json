@@ -1,0 +1,12 @@
+{
+  "tool": "mlx-metal.mlx_generate_code",
+  "status": "candidate_preliminary_pass",
+  "admitted": true,
+  "code": "def award_points(guesses: dict[str, str], correct: str, scores: dict[str, int]) -> dict[str, int]:\n    if correct not in {'a', 'b', 'tie'}:\n        raise ValueError('Correct choice must be one of {a, b, tie}')\n    new_scores = dict(scores)\n    for user, vote in guesses.items():\n        if isinstance(user, bool) or not isinstance(user, str) or not isinstance(vote, str) or not vote in {'a', 'b'}:\n            raise TypeError('User must be a string, vote must be one of {a, b}')\n        if vote == correct:\n            new_scores[user] = scores.get(user, 0) + 100\n        elif correct == 'tie':\n            new_scores[user] = scores.get(user, 0) + 50\n    return new_scores.copy()",
+  "model": "mlx-community/Qwen2.5-Coder-7B-Instruct-4bit",
+  "device": "DeviceType.gpu",
+  "duration_sec": 13.924,
+  "input_tokens": 1030,
+  "output_tokens": 190,
+  "notes": "Candidate requires independent tests. Reported watts/energy/savings are not physical measurements and excluded from product claims."
+}

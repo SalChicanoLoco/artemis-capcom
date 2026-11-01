@@ -1,0 +1,9 @@
+# MOCK Twitch fixture; no live users or observations.
+!landing shackleton
+!landing shackleton
+!moonquake 4.5
+!aoi shackleton
+!capcom Why do moonquakes ring so long?
+!capcom Why do moonquakes ring so long?
+!landing nowhere
+!moonquake 9.9

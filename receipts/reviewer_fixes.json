@@ -1,0 +1,92 @@
+{
+  "evidence_scope": "one-person self-test, broadcaster=bot=xavaanes; no independent viewer claimed",
+  "health": {
+    "ok": true,
+    "mode": "LIVE IRC",
+    "connection": "connected",
+    "channel": "xavaanes",
+    "dropped": 0,
+    "queued": 0,
+    "suppressed_replies": 1
+  },
+  "event": {
+    "sequence": 6,
+    "timestamp": 1793554001.283347,
+    "kind": "mission",
+    "ok": true,
+    "message": "[COMPUTED] SIGNAL B WINS! A: Q=3000, f=1Hz, 1% at 17.81min; B: Q=5000, f=1Hz, 1% at 25.12min. A(t)=t^-0.5 exp(-pi*f*t/Q); threshold=1% of A(1s). Correct picks +100 points.",
+    "data": {},
+    "cache_hit": false,
+    "modelled_energy": null,
+    "counters": {
+      "computations": 4,
+      "cache_hits": 0,
+      "calls_avoided": 0,
+      "errors": 0
+    },
+    "model": {
+      "loaded": false,
+      "model_path": null,
+      "disabled": true,
+      "error": null,
+      "busy": false,
+      "revision": 0,
+      "pending": 0,
+      "expired": 0
+    },
+    "mission": {
+      "round": {
+        "id": 1,
+        "title": "THE LONG ECHO",
+        "hint": "Same frequency. Different Q. Which signal survives longer?",
+        "phase": "revealed",
+        "a": {
+          "q": 3000,
+          "frequency_hz": 1,
+          "ringing_minutes": 17.811427322937714
+        },
+        "b": {
+          "q": 5000,
+          "frequency_hz": 1,
+          "ringing_minutes": 25.116395505680558
+        },
+        "closes_at": 1793553993.231887,
+        "voting_seconds": 20,
+        "replay_seconds": 8,
+        "winner": "b",
+        "explanation": "A: Q=3000, f=1Hz, 1% at 17.81min; B: Q=5000, f=1Hz, 1% at 25.12min. A(t)=t^-0.5 exp(-pi*f*t/Q); threshold=1% of A(1s).",
+        "replay_started_at": 1793553993.25307,
+        "counts": {
+          "a": 0,
+          "b": 1
+        },
+        "participants": 1
+      },
+      "leaderboard": [
+        {
+          "user": "xavaanes",
+          "points": 100
+        }
+      ]
+    },
+    "state": {
+      "site": null,
+      "quake": null,
+      "aoi": null
+    },
+    "transport": "LIVE IRC",
+    "runtime": {
+      "mode": "LIVE IRC",
+      "connection": "connected",
+      "channel": "xavaanes",
+      "dropped": 0,
+      "queued": 0,
+      "suppressed_replies": 1
+    }
+  },
+  "assertions": {
+    "repeated_reference_suppressed": true,
+    "parameters_in_reveal": true,
+    "single_participant": true
+  }
+}
